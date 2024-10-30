@@ -1,0 +1,127 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Dashboard styles */
+.dashboard {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+/*
+.App-logo {
+  height: 50px;
+}
+*/
+#signout {
+  margin-right: auto;
+  align-self: center;
+  padding: 8px 15px;
+  background-color: #ff5757;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#signout:hover {
+  background-color: #e04848;
+}
+
+/* Navigation styles */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #333;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+nav ul li a.active {
+  background-color: #00aaff;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: #0088cc;
+  color: white;
+}
+
+/* Product and User Management styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #00aaff;
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0088cc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  align-self: flex-start;
+}
